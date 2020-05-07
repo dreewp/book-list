@@ -17,13 +17,20 @@ export default function App() {
           books.map(
             ({
               id,
-              volumeInfo: { title, authors, publishedDate, imageLinks },
+              volumeInfo: {
+                title,
+                authors,
+                publishedDate,
+                imageLinks,
+                infoLink,
+              },
             }) => ({
               id,
               title,
               authors,
               publishedDate,
               imageURL: imageLinks && imageLinks.thumbnail,
+              infoLink,
             })
           );
 
@@ -45,16 +52,20 @@ export default function App() {
       />
       {books.length > 0 && (
         <ul id="book-list">
-          {books.map(({ id, title, authors, publishedDate, imageURL }) => (
-            <li key={id} className="book">
-              <img src={imageURL} alt={title} />
-              <div className="book-info">
-                <h2>{title}</h2>
-                {authors && <p>By {authors.join(', ')}</p>}
-                <p>Published: {publishedDate}</p>
-              </div>
-            </li>
-          ))}
+          {books.map(
+            ({ id, title, authors, publishedDate, imageURL, infoLink }) => (
+              <li key={id} className="book">
+                <a href={infoLink} target="_blank">
+                  <img src={imageURL} alt={title} />
+                </a>
+                <div className="book-info">
+                  <h2>{title}</h2>
+                  {authors && <p>By {authors.join(', ')}</p>}
+                  <p>Published: {publishedDate}</p>
+                </div>
+              </li>
+            )
+          )}
         </ul>
       )}
     </div>
