@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.ab06ba0b.chunk.css",
-    "main.js": "/static/js/main.ef945c5e.chunk.js",
-    "main.js.map": "/static/js/main.ef945c5e.chunk.js.map",
-    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
-    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
-    "static/js/2.a636507f.chunk.js": "/static/js/2.a636507f.chunk.js",
-    "static/js/2.a636507f.chunk.js.map": "/static/js/2.a636507f.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.b76496850806a554d8eb4141e450a052.js": "/precache-manifest.b76496850806a554d8eb4141e450a052.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.ab06ba0b.chunk.css.map": "/static/css/main.ab06ba0b.chunk.css.map"
+    "main.css": "/book-list/static/css/main.2e081780.chunk.css",
+    "main.js": "/book-list/static/js/main.bdd11ed1.chunk.js",
+    "main.js.map": "/book-list/static/js/main.bdd11ed1.chunk.js.map",
+    "runtime~main.js": "/book-list/static/js/runtime~main.88ddd283.js",
+    "runtime~main.js.map": "/book-list/static/js/runtime~main.88ddd283.js.map",
+    "static/js/2.8c0e5d29.chunk.js": "/book-list/static/js/2.8c0e5d29.chunk.js",
+    "static/js/2.8c0e5d29.chunk.js.map": "/book-list/static/js/2.8c0e5d29.chunk.js.map",
+    "index.html": "/book-list/index.html",
+    "precache-manifest.a9a085075c769887f8efd5b1fb2cf4fb.js": "/book-list/precache-manifest.a9a085075c769887f8efd5b1fb2cf4fb.js",
+    "service-worker.js": "/book-list/service-worker.js",
+    "static/css/main.2e081780.chunk.css.map": "/book-list/static/css/main.2e081780.chunk.css.map",
+    "static/media/styles.scss": "/book-list/static/media/wood-background1.22f0f683.jpeg"
   }
 }
